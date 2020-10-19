@@ -7,20 +7,76 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  
 }
-
+/* Beginning of header block style rules*/
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: relative;
+  background-color: #f2f2f2;
+  
   /* parameters for the header section */
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.logo_place_header {
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  /*z-index: 1;*/
 }
+
+.header__title {
+  width: 730px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  padding-top: 250px; /* placeholder value*/
+  
+}
+
+.header__subtitle {
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 1;
+  } 
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  top: 80px;
+  }
+
+.header__square-pic {
+  width: 568px;
+  height: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  background-color:#2f80ed;
+  }
+
+  /*End of header block style rules*/
 
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
