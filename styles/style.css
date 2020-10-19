@@ -78,6 +78,51 @@
 
   /*End of header block style rules*/
 
+  /* Beginning of description section/ two-column block*/
+
+  
+
+  .two-columns {
+    width: 80%;
+    min-width: 784px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    padding: 0 10%;
+    }
+
+  
+
+  .two-columns__brief {
+    color:#2f80ed;
+    width: 175px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    padding-right: 5%;
+    align-self: flex-start;
+    margin-top: 0;
+  }
+
+  .two-columns__paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+     /*temp need modifier*/
+    margin-top: 0;
+    margin-bottom: 30px;
+    }
+
+  .two-columns__span-accent {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  /* End of description section/ two-column block*/
+
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
