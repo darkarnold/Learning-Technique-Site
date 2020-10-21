@@ -132,6 +132,7 @@
     line-height: 1.15;
     font-size: 60px;
     font-weight: bold;
+    
   }
 
   .section-subtitle {
@@ -141,7 +142,7 @@
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
-  }
+    }
 
   .table {
     width: 1100px;
@@ -150,13 +151,12 @@
     margin: 0 auto 100px;
     flex-wrap: wrap;
     box-sizing: border-box;
-    
-  }
+    }
 
   .table__cell {
     width: 250px;
     margin-top: 60px;
-  }
+    }
 
   .table__heading {
     line-height: 1.15;
@@ -225,10 +225,31 @@
 
   /*End of feynman block*/
 
-/* including elements with key-value modifiers */
+  /*Beginning of Kaufman section*/
+
+  .kaufman {
+    background-color: #000;
+    color:#fff;
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
+    padding: 90px 0;
+  }
+
+  .kaufman__triangle {
+    position: absolute;
+    width: 877px;
+    height: 877px;
+    top: 0;
+    right: -210px;
+    z-index: -1;
+    }
+
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
+  color: #fff;
   margin-right: 0;
   margin-top: 80px;
 }
+
+/*End of kaufman block */
