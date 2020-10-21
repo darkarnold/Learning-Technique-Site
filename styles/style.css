@@ -174,6 +174,57 @@
   }
 /*End of digits block*/
 
+/*Beginning of the feynman block*/
+
+.feynman {
+  position: relative;
+  background-color: #f2f2f2;
+  height: 790px;
+  z-index: -1;
+  padding-top: 0;
+  
+}
+
+.feynman__title {
+  width: 775px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 70px;
+  padding: 0;
+  }
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  color: #000;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__image {
+  position: absolute;
+  z-index: -1;
+  width: 867px;
+  height: 637px;
+  left: 0;
+  bottom: 0;
+  }
+
+  /*End of feynman block*/
+
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
