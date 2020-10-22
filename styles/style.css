@@ -26,7 +26,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  /*z-index: 1;*/
+  
 }
 
 .header__title {
@@ -38,7 +38,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  padding-top: 250px; /* placeholder value*/
+  padding-top: 250px; 
   
 }
 
@@ -110,7 +110,6 @@
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
-     /*temp need modifier*/
     margin-top: 0;
     margin-bottom: 30px;
     }
@@ -156,6 +155,7 @@
   .table__cell {
     width: 250px;
     margin-top: 60px;
+    list-style: none;
     }
 
   .table__heading {
@@ -253,3 +253,71 @@
 }
 
 /*End of kaufman block */
+
+/*Beginning of footer section*/
+
+.footer {
+  min-height: 350px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  }
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+  
+}
+
+.footer__author {
+  color: #fff;
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  }
+
+.footer__column_content_info {
+  align-self: center;
+  }
+
+.footer__column-heading {
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  }
+
+.footer__column-links {
+  text-decoration: none;
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 20px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  list-style: none;
+} 
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* End of footer section*/
