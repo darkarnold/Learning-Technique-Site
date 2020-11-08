@@ -5,4 +5,5 @@
   top: 0;
   right: -210px;
   z-index: -1;
+  overflow: hidden;
   }

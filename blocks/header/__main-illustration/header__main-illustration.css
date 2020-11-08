@@ -3,6 +3,7 @@
   width: 765px;
   position: absolute;
   bottom: 0px;
-  right: 0px;
-  top: 80px;
+  right: 35px;
+  /*top: 80px;*/
+  z-index: 2;
   }
