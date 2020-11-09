@@ -9,5 +9,6 @@
   height: 790px;
   z-index: -1;
   padding-top: 0;
+  overflow: auto;
   
 }
